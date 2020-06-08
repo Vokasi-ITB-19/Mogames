@@ -898,10 +898,51 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.contact .info-box i.bx {
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+  color: #444444;
+  padding: 20px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.contact .info-box i.bx-map {
   font-size: 24px;
   color: #0f67ba;
   border-radius: 50%;
+  margin-top: 35px;
+  padding: 14px;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contact .info-box i.bx-envelope {
+  font-size: 24px;
+  color: #0f67ba;
+  border-radius: 50%;
+  margin-top: 0px;
+  padding: 14px;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contact .info-box i.bx-phone-call {
+  font-size: 24px;
+  color: #0f67ba;
+  border-radius: 50%;
+  margin-top: 0px;
+  padding: 14px;
+  float: left;
+  background: rgba(255, 255, 255, 0.1);
+} 
+
+.contact .info-box i.bx-share-alt {
+  font-size: 24px;
+  color: #0f67ba;
+  border-radius: 50%;
+  margin-top: 0px;
   padding: 14px;
   float: left;
   background: rgba(255, 255, 255, 0.1);
@@ -913,6 +954,14 @@ section .container {
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
+
+.contact .info-box h2 {
+  font-size: 20px;
+  color: #0f67ba;
+  font-weight: 700;
+  margin: 10px 0 8px 68px;
+}
+
 
 .contact .info-box p {
   padding: 0;
