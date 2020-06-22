@@ -28,7 +28,7 @@ var neutralmlbb = 0;
 var positivemlbb = 0;
 var negativemlbb = 0;
 var totalmlbb = 0;
-fetch("pes.json")
+fetch("Labelling/Hasil Labelling/pes.json")
     .then(function(resp) {
         return resp.json();
     })
@@ -50,7 +50,7 @@ fetch("pes.json")
         console.log(totalpes);
     });
 
-fetch("getrich.json")
+fetch("Labelling/Hasil Labelling/getrich.json")
     .then(function(resp) {
         return resp.json();
     })
@@ -72,7 +72,7 @@ fetch("getrich.json")
         console.log(totallgr);
     });
 
-fetch("codm.json")
+fetch("Labelling/Hasil Labelling/codm.json")
     .then(function(resp) {
         return resp.json();
     })
@@ -94,7 +94,7 @@ fetch("codm.json")
         console.log(totalcodm);
     });
 
-fetch("pubgm.json")
+fetch("Labelling/Hasil Labelling/pubgm.json")
     .then(function(resp) {
         return resp.json();
     })
@@ -116,7 +116,7 @@ fetch("pubgm.json")
         console.log(totalpubgm);
     });
 
-fetch("mlbb.json")
+fetch("Labelling/Hasil Labelling/mlbb.json")
     .then(function(resp) {
         return resp.json();
     })

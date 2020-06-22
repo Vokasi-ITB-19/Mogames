@@ -1,0 +1,2502 @@
+[
+  {
+    "completions": [
+      {
+        "id": 1,
+        "lead_time": 5.68,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "pCLvd_eXKF",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Main di battleground"
+    },
+    "id": 0
+  },
+  {
+    "completions": [
+      {
+        "id": 1001,
+        "lead_time": 4.975,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "KPmvacH9Nt",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang mainin game free fire"
+    },
+    "id": 1
+  },
+  {
+    "completions": [
+      {
+        "id": 2001,
+        "lead_time": 11.764,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "VlTsgwFBEK",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Om entar mabar sama aku dong"
+    },
+    "id": 2
+  },
+  {
+    "completions": [
+      {
+        "id": 3001,
+        "lead_time": 3.977,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "aAHdB2HfqS",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Pangkatnya apaan ya"
+    },
+    "id": 3
+  },
+  {
+    "completions": [
+      {
+        "id": 4001,
+        "lead_time": 5.884,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "tl7fGHWhVr",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Soal nya aku baru download gamenya"
+    },
+    "id": 4
+  },
+  {
+    "completions": [
+      {
+        "id": 5001,
+        "lead_time": 18.292,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "wMhlbbWni7",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Miawaug mabar cod yuk nama aku ardi bukan nama cod nama panggilan"
+    },
+    "id": 5
+  },
+  {
+    "completions": [
+      {
+        "id": 6001,
+        "lead_time": 24.777,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "hEuv08dfpd",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "BANG MABAR YO\nNICKNAME:kingshark15019"
+    },
+    "id": 6
+  },
+  {
+    "completions": [
+      {
+        "id": 7001,
+        "lead_time": 14.043,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "QUu74RyW0b",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak regi main free fire lagi dong"
+    },
+    "id": 7
+  },
+  {
+    "completions": [
+      {
+        "id": 8001,
+        "lead_time": 6.514,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "n8qETseTVp",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Ka regi main ff ka"
+    },
+    "id": 8
+  },
+  {
+    "completions": [
+      {
+        "id": 9001,
+        "lead_time": 11.353,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "_OPjqv3Qw7",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Positive"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Radit maron kelas1👍1000"
+    },
+    "id": 9
+  },
+  {
+    "completions": [
+      {
+        "id": 10001,
+        "lead_time": 3.818,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "E2jI3mL9dt",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Radit"
+    },
+    "id": 10
+  },
+  {
+    "completions": [
+      {
+        "id": 11001,
+        "lead_time": 30.988,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "9iMj1EiaLH",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang itukan kontrolnya bisa auto"
+    },
+    "id": 11
+  },
+  {
+    "completions": [
+      {
+        "id": 12001,
+        "lead_time": 4.871,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "OBM3A0N56B",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang follow yg saya HW1207"
+    },
+    "id": 12
+  },
+  {
+    "completions": [
+      {
+        "id": 13001,
+        "lead_time": 4.597,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "9dT-YJcy7n",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Main mobol legens"
+    },
+    "id": 13
+  },
+  {
+    "completions": [
+      {
+        "id": 14001,
+        "lead_time": 13.564,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "kb1v9nXQSL",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "b[uhufu"
+    },
+    "id": 14
+  },
+  {
+    "completions": [
+      {
+        "id": 15001,
+        "lead_time": 8.083,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "6Jp6I6ImrF",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mabar bang"
+    },
+    "id": 15
+  },
+  {
+    "completions": [
+      {
+        "id": 16001,
+        "lead_time": 4.159,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "JOZ2oB88ky",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Positive"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "MANTAP"
+    },
+    "id": 16
+  },
+  {
+    "completions": [
+      {
+        "id": 17001,
+        "lead_time": 7.354,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "tVhjfVCyKo",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kalo main  aku mau nama kamu sih  bole ngak"
+    },
+    "id": 17
+  },
+  {
+    "completions": [
+      {
+        "id": 18001,
+        "lead_time": 5.867,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "WZEk6NZpS0",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Saya yang mvp itu"
+    },
+    "id": 18
+  },
+  {
+    "completions": [
+      {
+        "id": 19001,
+        "lead_time": 16.854,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "1WM8PUVSxf",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Miaiaug udh sampai di like / Tik tok loh"
+    },
+    "id": 19
+  },
+  {
+    "completions": [
+      {
+        "id": 20001,
+        "lead_time": 14.359,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "YvJ1oGw3V6",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Gampanang lawat yang piso lebi susa level 150"
+    },
+    "id": 20
+  },
+  {
+    "completions": [
+      {
+        "id": 21001,
+        "lead_time": 7.644,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "3Ddahrr29s",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Dan saya sudah dapat semua sejata"
+    },
+    "id": 21
+  },
+  {
+    "completions": [
+      {
+        "id": 22001,
+        "lead_time": 7.729,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "VmPskTnEXN",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Miawaug saya level 150 dapat banyak cp"
+    },
+    "id": 22
+  },
+  {
+    "completions": [
+      {
+        "id": 23001,
+        "lead_time": 62.152,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "yLuFUGbIwN",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Greget tapi menurutku lbh mudah daripada ff kak"
+    },
+    "id": 23
+  },
+  {
+    "completions": [
+      {
+        "id": 24001,
+        "lead_time": 10.966,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "HUg63ZaYgc",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Spesialis pdw"
+    },
+    "id": 24
+  },
+  {
+    "completions": [
+      {
+        "id": 25001,
+        "lead_time": 8.741,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "wpa5ZENCxU",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mabar yok bg \nName : AbesD"
+    },
+    "id": 25
+  },
+  {
+    "completions": [
+      {
+        "id": 26001,
+        "lead_time": 9.17,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "HOXtleb0wV",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "mabar : bramburan"
+    },
+    "id": 26
+  },
+  {
+    "completions": [
+      {
+        "id": 27001,
+        "lead_time": 7.722,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "7bmAmvjwpA",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "tembaaaak"
+    },
+    "id": 27
+  },
+  {
+    "completions": [
+      {
+        "id": 28001,
+        "lead_time": 6.239,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "-mM6U6euZH",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Positive"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak regi harus maju"
+    },
+    "id": 28
+  },
+  {
+    "completions": [
+      {
+        "id": 29001,
+        "lead_time": 5.07,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "nzpPgbF5_W",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mau ikut clan"
+    },
+    "id": 29
+  },
+  {
+    "completions": [
+      {
+        "id": 30001,
+        "lead_time": 27.558,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "qHlwc7kRzM",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mabar kuy\nNama player:Hello_hasgame\nMain game: 2020 \nBuruan main Game Call Of Duty Mobile"
+    },
+    "id": 30
+  },
+  {
+    "completions": [
+      {
+        "id": 31001,
+        "lead_time": 14.86,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "Hlv7lJBla7",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak regi kalo mau pro player Pakai Triker Itu bagus"
+    },
+    "id": 31
+  },
+  {
+    "completions": [
+      {
+        "id": 32001,
+        "lead_time": 5.17,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "TSkdOpyJEq",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "RAPAYU COD PAYUNE FREE FIRE"
+    },
+    "id": 32
+  },
+  {
+    "completions": [
+      {
+        "id": 33001,
+        "lead_time": 33.961,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "bcv5-VYbuO",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mabar bang"
+    },
+    "id": 33
+  },
+  {
+    "completions": [
+      {
+        "id": 34001,
+        "lead_time": 7.723,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "mULsgRUOCV",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak mainnin game free fire"
+    },
+    "id": 34
+  },
+  {
+    "completions": [
+      {
+        "id": 35001,
+        "lead_time": 32.289,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "JIDGK8YNV0",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak regi kita main barang  ya di call of duty ya"
+    },
+    "id": 35
+  },
+  {
+    "completions": [
+      {
+        "id": 36001,
+        "lead_time": 6.626,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "wUY9oWm_H0",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak regi main call of duty mobile dong Azzam"
+    },
+    "id": 36
+  },
+  {
+    "completions": [
+      {
+        "id": 37001,
+        "lead_time": 4.785,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "Wu37hjTCmU",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang kamu apa punya ff"
+    },
+    "id": 37
+  },
+  {
+    "completions": [
+      {
+        "id": 38001,
+        "lead_time": 7.458,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "MwcnaTm6Dj",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mabar di CALL OF DUTY"
+    },
+    "id": 38
+  },
+  {
+    "completions": [
+      {
+        "id": 39001,
+        "lead_time": 4.067,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "xgRlIK_A8P",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Yu"
+    },
+    "id": 39
+  },
+  {
+    "completions": [
+      {
+        "id": 40001,
+        "lead_time": 3.45,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "MGJmeFP7Oh",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mabar"
+    },
+    "id": 40
+  },
+  {
+    "completions": [
+      {
+        "id": 41001,
+        "lead_time": 4.351,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "OW_gXavQvc",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak nama ku zhariif"
+    },
+    "id": 41
+  },
+  {
+    "completions": [
+      {
+        "id": 42001,
+        "lead_time": 3.836,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "KEB3ROBBKi",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mabar:Andrew_Assasin"
+    },
+    "id": 42
+  },
+  {
+    "completions": [
+      {
+        "id": 43001,
+        "lead_time": 5.629,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "MAOdgbQ1zY",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak bikin lagi dong yang cod mobile"
+    },
+    "id": 43
+  },
+  {
+    "completions": [
+      {
+        "id": 44001,
+        "lead_time": 34.287,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "KFZ2Tzk1wL",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Tapi minta hap aipon 15 ya pelis biar bisa mabar ya guapinjam hap teman kunih ya ALFINGEMING SAYAGANTI NAMANYA AKFINGEMING GUA JAGO SU DAJ LEJEN"
+    },
+    "id": 44
+  },
+  {
+    "completions": [
+      {
+        "id": 45001,
+        "lead_time": 4.459,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "xy-5AJ-V_C",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak main ff ka"
+    },
+    "id": 45
+  },
+  {
+    "completions": [
+      {
+        "id": 46001,
+        "lead_time": 3.975,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "iHqMVHX43v",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Sakkha"
+    },
+    "id": 46
+  },
+  {
+    "completions": [
+      {
+        "id": 47001,
+        "lead_time": 4.018,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "8M4qfFynsW",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak regi kapan main codm lagi?"
+    },
+    "id": 47
+  },
+  {
+    "completions": [
+      {
+        "id": 48001,
+        "lead_time": 6.348,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "AzCMEkvUcK",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "miawaug mainan cod nya pake paket gak"
+    },
+    "id": 48
+  },
+  {
+    "completions": [
+      {
+        "id": 49001,
+        "lead_time": 3.32,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "_8NKhZ9jjl",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "b"
+    },
+    "id": 49
+  },
+  {
+    "completions": [
+      {
+        "id": 50001,
+        "lead_time": 3.643,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "BgyqMmOdv1",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "tolong main call of duty warzone dong"
+    },
+    "id": 50
+  },
+  {
+    "completions": [
+      {
+        "id": 51001,
+        "lead_time": 7.217,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "kElcDDRdZR",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Main yuk aku pangkat master v"
+    },
+    "id": 51
+  },
+  {
+    "completions": [
+      {
+        "id": 52001,
+        "lead_time": 173.467,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "zGs7TCvwmG",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "kak regi kalo gua  main game call of duty ini gua pake shortgun"
+    },
+    "id": 52
+  },
+  {
+    "completions": [
+      {
+        "id": 53001,
+        "lead_time": 49.248,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "rzEmSVrc9_",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak mainin pocong hunter dong"
+    },
+    "id": 53
+  },
+  {
+    "completions": [
+      {
+        "id": 54001,
+        "lead_time": 10.937,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "DjJZtUxH2d",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "oiya bang mainnya pakek soara ya bang"
+    },
+    "id": 54
+  },
+  {
+    "completions": [
+      {
+        "id": 55001,
+        "lead_time": 8.887,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "8zUj38r1_D",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang main coll of duty bong tapi mainnya sama aku ya bang namaku BAROVLOGPRO ya bang"
+    },
+    "id": 55
+  },
+  {
+    "completions": [
+      {
+        "id": 56001,
+        "lead_time": 3.653,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "9N9ogo9DhI",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang nama gua di cod Lkisior1"
+    },
+    "id": 56
+  },
+  {
+    "completions": [
+      {
+        "id": 57001,
+        "lead_time": 5.359,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "b0IQTjOYSu",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang aku tukang pisau"
+    },
+    "id": 57
+  },
+  {
+    "completions": [
+      {
+        "id": 58001,
+        "lead_time": 4.798,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "SkGeG6af8A",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak regi main game milk coco"
+    },
+    "id": 58
+  },
+  {
+    "completions": [
+      {
+        "id": 59001,
+        "lead_time": 3.615,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "M-YhD6MV_u",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bak main freefiree"
+    },
+    "id": 59
+  },
+  {
+    "completions": [
+      {
+        "id": 60001,
+        "lead_time": 3.604,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "nGWxiy-ttf",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Migu"
+    },
+    "id": 60
+  },
+  {
+    "completions": [
+      {
+        "id": 61001,
+        "lead_time": 5.257,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "Vwqzlq7ZZZ",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "miawaug apa nama kamu"
+    },
+    "id": 61
+  },
+  {
+    "completions": [
+      {
+        "id": 62001,
+        "lead_time": 6.782,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "5Z0AlPRLb8",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "miawaug aku punya call of duty"
+    },
+    "id": 62
+  },
+  {
+    "completions": [
+      {
+        "id": 63001,
+        "lead_time": 10.293,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "xf6YoTU8Wj",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Miawaug jangan teropon melulu nanti aku enga like dan saskreb"
+    },
+    "id": 63
+  },
+  {
+    "completions": [
+      {
+        "id": 64001,
+        "lead_time": 58.23,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "4jbpfKn8BY",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak main free fire lah.skarang dah hd grafiknya"
+    },
+    "id": 64
+  },
+  {
+    "completions": [
+      {
+        "id": 65001,
+        "lead_time": 4.189,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "rF3D_5_VXA",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang coba main free fire"
+    },
+    "id": 65
+  },
+  {
+    "completions": [
+      {
+        "id": 66001,
+        "lead_time": 4.848,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "f1x8a2dNTK",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "miaw .main zombie dong😁😁"
+    },
+    "id": 66
+  },
+  {
+    "completions": [
+      {
+        "id": 67001,
+        "lead_time": 4.172,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "r1HL824TuM",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Callofduty"
+    },
+    "id": 67
+  },
+  {
+    "completions": [
+      {
+        "id": 68001,
+        "lead_time": 2.912,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "Q9T7jcYWaD",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Auaiafui"
+    },
+    "id": 68
+  },
+  {
+    "completions": [
+      {
+        "id": 69001,
+        "lead_time": 4.725,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "ivslIchMKJ",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Positive"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Good"
+    },
+    "id": 69
+  },
+  {
+    "completions": [
+      {
+        "id": 70001,
+        "lead_time": 4.684,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "vWoVNxVpYy",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "mabar kari (teko)"
+    },
+    "id": 70
+  },
+  {
+    "completions": [
+      {
+        "id": 71001,
+        "lead_time": 4.869,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "c7U3OtYJwV",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak kenapa ga pake auto fire aja"
+    },
+    "id": 71
+  },
+  {
+    "completions": [
+      {
+        "id": 72001,
+        "lead_time": 9.69,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "dS9mb4gtIU",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kalau mau pisau refleknya harus cepat karena semakin cepat musuh tidak bisa membidik"
+    },
+    "id": 72
+  },
+  {
+    "completions": [
+      {
+        "id": 73001,
+        "lead_time": 4.702,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "fO_O2AFDYi",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Mabar nama virronic"
+    },
+    "id": 73
+  },
+  {
+    "completions": [
+      {
+        "id": 74001,
+        "lead_time": 30.871,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "Z6JACIcBKK",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang pas main call of duty mobile abang skin nya gratis san ga"
+    },
+    "id": 74
+  },
+  {
+    "completions": [
+      {
+        "id": 75001,
+        "lead_time": 6.12,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "4gDz3w5gLp",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Main pubg mobile dong kak MIAWAUG"
+    },
+    "id": 75
+  },
+  {
+    "completions": [
+      {
+        "id": 76001,
+        "lead_time": 6.518,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "EkWzyAAsdL",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Sayaaaa bisa membidik di hp"
+    },
+    "id": 76
+  },
+  {
+    "completions": [
+      {
+        "id": 77001,
+        "lead_time": 13.41,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "WuTie8B8vW",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Positive"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Aimya boleh juga bro 😊 chanel lu menjangkau semua umur bro 😁anak gw sub loe. Skrng bpknya yg sub loe bro haha👍👍👍"
+    },
+    "id": 77
+  },
+  {
+    "completions": [
+      {
+        "id": 78001,
+        "lead_time": 4.599,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "Ui_9bbgLAx",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "nama Saya AMIRRUL Call of Duty"
+    },
+    "id": 78
+  },
+  {
+    "completions": [
+      {
+        "id": 79001,
+        "lead_time": 4.16,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "KoAzaEf7DM",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Ff"
+    },
+    "id": 79
+  },
+  {
+    "completions": [
+      {
+        "id": 80001,
+        "lead_time": 8.82,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "5goCb8QI2b",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Klo setiap main gak pernah menang aku bg....\nHehheheeee...\nCara mainnya bgaimana..."
+    },
+    "id": 80
+  },
+  {
+    "completions": [
+      {
+        "id": 81001,
+        "lead_time": 81.361,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "ZVIBfbpT0Q",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Negative"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "🤬🤬🤬"
+    },
+    "id": 81
+  },
+  {
+    "completions": [
+      {
+        "id": 82001,
+        "lead_time": 4.039,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "zAMXWg-vsi",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang level berapa kalo saya level 97"
+    },
+    "id": 82
+  },
+  {
+    "completions": [
+      {
+        "id": 83001,
+        "lead_time": 10.184,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "5ea-fnPOkK",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Yg pilih miawaug jago subscribe Chanel aku"
+    },
+    "id": 83
+  },
+  {
+    "completions": [
+      {
+        "id": 84001,
+        "lead_time": 5.918,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "srI3fzlEyW",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Miawaug coba dapat nuke di call of duty"
+    },
+    "id": 84
+  },
+  {
+    "completions": [
+      {
+        "id": 85001,
+        "lead_time": 5.761,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "5kTufoZRHd",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Tapi tidak boleh pakai kill stirk"
+    },
+    "id": 85
+  },
+  {
+    "completions": [
+      {
+        "id": 86001,
+        "lead_time": 4.961,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "9UA5Jr9zJx",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang aku ada call of duty namanya legenstim rank elite 3"
+    },
+    "id": 86
+  },
+  {
+    "completions": [
+      {
+        "id": 87001,
+        "lead_time": 4.265,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "jFf-nnFsN8",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Miawaug tolong main game garena free fire"
+    },
+    "id": 87
+  },
+  {
+    "completions": [
+      {
+        "id": 88001,
+        "lead_time": 3.849,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "zFjOeUqrjk",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Kak miawaug main free fire pilsss kak"
+    },
+    "id": 88
+  },
+  {
+    "completions": [
+      {
+        "id": 89001,
+        "lead_time": 5.469,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "f90ALPlPQ-",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "ku ingin ID pubg mu untuk bermain besama"
+    },
+    "id": 89
+  },
+  {
+    "completions": [
+      {
+        "id": 90001,
+        "lead_time": 5.52,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "SfX2bFZhvX",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang geivuwey"
+    },
+    "id": 90
+  },
+  {
+    "completions": [
+      {
+        "id": 91001,
+        "lead_time": 3.829,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "1h4nWvYKqG",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Gua pro player"
+    },
+    "id": 91
+  },
+  {
+    "completions": [
+      {
+        "id": 92001,
+        "lead_time": 3.28,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "BZeQscEVXC",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "kayak papji"
+    },
+    "id": 92
+  },
+  {
+    "completions": [
+      {
+        "id": 93001,
+        "lead_time": 3.402,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "V-MvcUjh3r",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Add saya \nusername : marco.florenci"
+    },
+    "id": 93
+  },
+  {
+    "completions": [
+      {
+        "id": 94001,
+        "lead_time": 5.943,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "s6V_v4zrRY",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Siapa uang mau friend di cod mobile sya pro nama andrewgaming"
+    },
+    "id": 94
+  },
+  {
+    "completions": [
+      {
+        "id": 95001,
+        "lead_time": 4.125,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "r4Jeu0-2j3",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "ka miau main pubg"
+    },
+    "id": 95
+  },
+  {
+    "completions": [
+      {
+        "id": 96001,
+        "lead_time": 3.785,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "rCD9qxTEDh",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Ka regi main bareng cod"
+    },
+    "id": 96
+  },
+  {
+    "completions": [
+      {
+        "id": 97001,
+        "lead_time": 4.387,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "Y3sqItk_j1",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Positive"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Good"
+    },
+    "id": 97
+  },
+  {
+    "completions": [
+      {
+        "id": 98001,
+        "lead_time": 5.466,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "wlPl7f8GCp",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Bang gimana dowlod nya😢😢😢😢"
+    },
+    "id": 98
+  },
+  {
+    "completions": [
+      {
+        "id": 99001,
+        "lead_time": 9.994,
+        "result": [
+          {
+            "from_name": "sentiment",
+            "id": "9BOBzPEJ0K",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "Neutral"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "text": "Ke play store ketik cod trus instal"
+    },
+    "id": 99
+  }
+]
