@@ -35,7 +35,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <style>
+    <style>
 * {
   box-sizing: border-box;
 }
@@ -44,7 +44,7 @@
   background-image: url('/css/searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  width: 1000px;
+  width: 500px;
   text-align: center;
   margin-left:10px;
   font-size: 16px;
@@ -58,6 +58,24 @@
   color: white;
 }
 
+#myInput2 {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 250px;
+  text-align: center;
+  margin-left:10px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 3px solid #0f67ba;
+  margin-bottom: 12px;
+  color: white;
+  margin-left:140px; 
+}
+
+::placeholder {
+  color: white;
+}
 
 
 #myTable {
@@ -75,6 +93,23 @@
   border: 3px solid #0f67ba;
 }
 
+.btn {
+  height: 54px;
+  border: 3px solid #0f67ba;
+  color : black;
+  margin-bottom:  4px;
+  background-color: white;
+  width : 100px;  
+}
+
+.btn:hover{
+  height: 54px;
+  border: 3px solid #0f67ba;
+  color : white;
+  margin-bottom:  4px;
+  background-color: black;
+  width : 100px;  
+}
 #myTable tr {
   border-bottom: 1px solid #0f67ba;
 }
@@ -83,6 +118,7 @@
   background-color: #f1f1f1
 }
 </style>
+
 
 </head>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -296,7 +332,12 @@
 
                          <div class="col-lg-12" style="margin-top:40px;">
                       <h3>Example of Data Annotation Results Taken from Mobile Legends Video </h3>
-                         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by Comment Type" title="Type in a name" style="background-color: black;">
+                         <input type="text" id="myInput" onkeyup="myFunction()"  placeholder="Search " title="Type in a name" style="background-color: black;">
+                         
+                         
+                         <input type="text" id="myInput2"  placeholder="Sort by Comment Type " title="Type in a name" style="background-color: black;">
+                         <button type="button" class="btn"  onclick="myFunction2()">Sort </button>  
+                         
                           <div id="headline"></div>
                     <br>
 
@@ -927,10 +968,22 @@
     <script src="assets/js/chart.js"></script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <script>
+   <script>
 function myFunction() {
+  $(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+}
+</script>
+<script>
+function myFunction2() {
   var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
+  input = document.getElementById("myInput2");
   filter = input.value.toUpperCase();
   table = document.getElementById("myTable");
   tr = table.getElementsByTagName("tr");
@@ -939,7 +992,7 @@ function myFunction() {
     if (td) {
       txtValue = td.textContent || td.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
+      tr[i].style.display = "";
       } else {
         tr[i].style.display = "none";
       }
@@ -947,6 +1000,7 @@ function myFunction() {
   }
 }
 </script>
+
 
 
 </body>
