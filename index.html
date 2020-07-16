@@ -36,88 +36,90 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
     <style>
-* {
-  box-sizing: border-box;
-}
-
-#myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 500px;
-  text-align: center;
-  margin-left:10px;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 3px solid #0f67ba;
-  margin-bottom: 12px;
-  color: white;
-}
-
-::placeholder {
-  color: white;
-}
-
-#myInput2 {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 250px;
-  text-align: center;
-  margin-left:10px;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 3px solid #0f67ba;
-  margin-bottom: 12px;
-  color: white;
-  margin-left:140px; 
-}
-
-::placeholder {
-  color: white;
-}
-
-
-#myTable {
-  border-collapse: collapse;
-  width: 100%;
-  border: 3px solid #0f67ba;
-  font-size: 15px;
-}
-
-#myTable th, #myTable td {
-  text-align: left;
-  padding: 12px;
-  color: white;
-  background-color: black;
-  border: 3px solid #0f67ba;
-}
-
-.btn {
-  height: 54px;
-  border: 3px solid #0f67ba;
-  color : black;
-  margin-bottom:  4px;
-  background-color: white;
-  width : 100px;  
-}
-
-.btn:hover{
-  height: 54px;
-  border: 3px solid #0f67ba;
-  color : white;
-  margin-bottom:  4px;
-  background-color: black;
-  width : 100px;  
-}
-#myTable tr {
-  border-bottom: 1px solid #0f67ba;
-}
-
-#myTable tr.header, #myTable tr:hover {
-  background-color: #f1f1f1
-}
-</style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        #myInput {
+            background-image: url('/css/searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            width: 500px;
+            text-align: center;
+            margin-left: 10px;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 3px solid #0f67ba;
+            margin-bottom: 12px;
+            color: white;
+        }
+        
+         ::placeholder {
+            color: white;
+        }
+        
+        #myInput2 {
+            background-image: url('/css/searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            width: 250px;
+            text-align: center;
+            margin-left: 10px;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 3px solid #0f67ba;
+            margin-bottom: 12px;
+            color: white;
+            margin-left: 140px;
+        }
+        
+         ::placeholder {
+            color: white;
+        }
+        
+        #myTable {
+            border-collapse: collapse;
+            width: 100%;
+            border: 3px solid #0f67ba;
+            font-size: 15px;
+        }
+        
+        #myTable th,
+        #myTable td {
+            text-align: left;
+            padding: 12px;
+            color: white;
+            background-color: black;
+            border: 3px solid #0f67ba;
+        }
+        
+        .btn {
+            height: 54px;
+            border: 3px solid #0f67ba;
+            color: black;
+            margin-bottom: 4px;
+            background-color: white;
+            width: 100px;
+        }
+        
+        .btn:hover {
+            height: 54px;
+            border: 3px solid #0f67ba;
+            color: white;
+            margin-bottom: 4px;
+            background-color: black;
+            width: 100px;
+        }
+        
+        #myTable tr {
+            border-bottom: 1px solid #0f67ba;
+        }
+        
+        #myTable tr.header,
+        #myTable tr:hover {
+            background-color: #f1f1f1
+        }
+    </style>
 
 
 </head>
@@ -126,27 +128,27 @@
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
 
 <script>
-     $(document).ready(function(){
-         
+    $(document).ready(function() {
 
-        $.getJSON('Labelling/Hasil Labelling/mlbb.json',function(data){
-         
+
+        $.getJSON('Labelling/Hasil Labelling/mlbb.json', function(data) {
+
             var headline_data = '';
             var i = 1;
 
             headline_data += " <table id='myTable' align='center' class='table table-striped table-bordered' style='width:1000px; background-color:white;''><thead><tr><th style='width:20px;'>No</th><th style='width:400px;'>Comment</th><th style='width:150px;'>Type of Comment</th></tr></thead>"
             $.each(data, function(key, value) {
                 headline_data += '<tr>';
-                headline_data += '<td>'+i+'</td>'
-                headline_data += '<td>'+value.data.text+'</td>'
-                headline_data += '<td>'+value.completions[0].result[0].value.choices[0]+'</td>'
+                headline_data += '<td>' + i + '</td>'
+                headline_data += '<td>' + value.data.text + '</td>'
+                headline_data += '<td>' + value.completions[0].result[0].value.choices[0] + '</td>'
                 headline_data += '</tr>';
                 i = i + 1;
             });
             '</tbody><tfoot><tr><th>No</th><th>Komentar</th><th>Jenis Komentar</th></tr></tfoot></table>'
             $('#headline').append(headline_data);
         });
-        
+
     });
 </script>
 
@@ -311,11 +313,11 @@
 
                         <div class="progress">
                             <span class="skill">PES Mobile <i class="val" id="valpes">NULL</i></span>
-                   </div>
+                        </div>
 
-                   <br>
+                        <br>
 
-                   
+
 
                         <!--        <div class="progress">
                           <span class="skill">Photoshop <i class="val">55%</i></span>
@@ -329,22 +331,25 @@
                 div> -->
 
                     </div>
+                    <div class="col-lg-12" style="margin-top:40px;">
+                        <h3>Chart</h3>
+                        <div id="piechart"></div>
+                    </div>
+                    <div class="col-lg-12" style="margin-top:40px;">
+                        <h3>Example of Data Annotation Results Taken from Mobile Legends Video </h3>
+                        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search " title="Type in a name" style="background-color: black;">
 
-                         <div class="col-lg-12" style="margin-top:40px;">
-                      <h3>Example of Data Annotation Results Taken from Mobile Legends Video </h3>
-                         <input type="text" id="myInput" onkeyup="myFunction()"  placeholder="Search " title="Type in a name" style="background-color: black;">
-                         
-                         
-                         <input type="text" id="myInput2"  placeholder="Sort by Comment Type " title="Type in a name" style="background-color: black;">
-                         <button type="button" class="btn"  onclick="myFunction2()">Sort </button>  
-                         
-                          <div id="headline"></div>
-                    <br>
 
-                   </div> 
+                        <input type="text" id="myInput2" placeholder="Sort by Comment Type " title="Type in a name" style="background-color: black;">
+                        <button type="button" class="btn" onclick="myFunction2()">Sort </button>
+
+                        <div id="headline"></div>
+                        <br>
+
+                    </div>
                 </div>
 
-                
+
 
                 <!-- End Skills -->
 
@@ -506,109 +511,110 @@
     <!-- End About Section -->
 
     <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container">
+    <section id="resume" class="resume">
+        <div class="container">
 
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check Our Resume</p>
-    <h5><em>This page contains the progress of each person's work.</em></h5>
-      </div>
+            <div class="section-title">
+                <h2>Resume</h2>
+                <p>Check Our Resume</p>
+                <h5><em>This page contains the progress of each person's work.</em></h5>
+            </div>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h3 class="resume-title">Leader</h3>
-          <div class="resume-item pb-0">
-            <h4>Andika Yudha Riyanto</h4>
-      <h5>191524034</h5>            
-            <p>
-            <ul>
-			  <li> Leading the Discussion on the division of tasks for comment / video data annotation </li>
-			  <li> Scraping the gameplay Mobile Legends comments  from youtube </li>
-			  <li> Labeling The gameplay Mobile Legends comments </li>
-			  <li> Change the portfolio-detail on the web template </li>
-			  <li> Combines labeling results and modifying web templates </li>
-			  <li> Push to github and create web directly </li>
-            </ul>
-            </p>
-          </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Leader</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Andika Yudha Riyanto</h4>
+                        <h5>191524034</h5>
+                        <p>
+                            <ul>
+                                <li> Leading the Discussion on the division of tasks for comment / video data annotation </li>
+                                <li> Scraping the gameplay Mobile Legends comments from youtube </li>
+                                <li> Labeling The gameplay Mobile Legends comments </li>
+                                <li> Change the portfolio-detail on the web template </li>
+                                <li> Combines labeling results and modifying web templates </li>
+                                <li> Push to github and create web directly </li>
+                            </ul>
+                        </p>
+                    </div>
 
-          <h3 class="resume-title">Analyst</h3>
-          <div class="resume-item">
-            <h4>Alex Sinaga</h4>
-            <h5>191524033</h5>
-            <p>
-            <ul>
-              <li> Scraping The gameplay PES 2020 comments  from youtube </li>
-			  <li> Labeling The gameplay PES 2020 comments </li>
-			  <li> Look for web templates</li>
-              <li> Make work progress reports in Trello</li>        
-              <li> Fix job report in gdocs</li>
-            </ul>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Herlana</h4>
-            <h5>191524045</h5>
-            <p>
-            <ul>
-              <li> Scraping The gameplay Call of Duty Mobile comments  from youtube </li>
-			  <li> Labeling The gameplay Call of Duty Mobile  comments </li>
-			  <li> Modifying the resume page on the template</li>
-              <li> Make a job report on Trello</li>
-              <li> Fix job report in gdocs</li>
-            </ul>
-            </p>
-          </div>
+                    <h3 class="resume-title">Analyst</h3>
+                    <div class="resume-item">
+                        <h4>Alex Sinaga</h4>
+                        <h5>191524033</h5>
+                        <p>
+                            <ul>
+                                <li> Scraping The gameplay PES 2020 comments from youtube </li>
+                                <li> Labeling The gameplay PES 2020 comments </li>
+                                <li> Look for web templates</li>
+                                <li> Make work progress reports in Trello</li>
+                                <li> Fix job report in gdocs</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Herlana</h4>
+                        <h5>191524045</h5>
+                        <p>
+                            <ul>
+                                <li> Scraping The gameplay Call of Duty Mobile comments from youtube </li>
+                                <li> Labeling The gameplay Call of Duty Mobile comments </li>
+                                <li> Modifying the resume page on the template</li>
+                                <li> Make a job report on Trello</li>
+                                <li> Fix job report in gdocs</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Designer</h3>
+                    <div class="resume-item">
+                        <h4>Azhar Subhan Fauzi</h4>
+                        <h5>191524036</h5>
+                        <p>
+                            <ul>
+                                <li> Make an algorithm to scraping comments from youtube</li>
+                                <li> Scraping The gameplay Mobile Legends comments from youtube </li>
+                                <li> Labeling The gameplay Mobile Legends comments </li>
+                                <li> Look for web templates and some customizations and concepts</li>
+                                <li> Make an algorithm to automate the calculation of the number of comments from json to html</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Nabil Putra Hadiyani</h4>
+                        <h5>191524052</h5>
+                        <p>
+                            <ul>
+                                <li> Scraping The gameplay PUBG comments from youtube </li>
+                                <li> Labeling The gameplay PUBG comments </li>
+                                <li> Look for web templates </li>
+                                <li> Modify the contact template page according to group members</li>
+                                <li> Change the appearance / css of the contact page</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <h3 class="resume-title">Programmer</h3>
+                    <div class="resume-item">
+                        <h4>Salman Shalahuddin</h4>
+                        <h5>191524059</h5>
+                        <p>
+                            <ul>
+                                <li> Scraping The gameplay Get Rich comments from youtube </li>
+                                <li> Labeling The gameplay Get Rich comments </li>
+                                <li>Modify the homepage template on the web</li>
+                                <li>Modify the CSS template style</li>
+                                <li>Modified Annotation Graph page on the web</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="col-lg-6">
-          <h3 class="resume-title">Designer</h3>
-          <div class="resume-item">
-            <h4>Azhar Subhan Fauzi</h4>
-            <h5>191524036</h5>
-            <p>
-            <ul>
-              <li> Make an algorithm to scraping comments from youtube</li>			 
-			  <li> Scraping The gameplay Mobile Legends comments  from youtube </li>
-			  <li> Labeling The gameplay Mobile Legends comments </li>
-			  <li> Look for web templates and some customizations and concepts</li>
-              <li> Make an algorithm to automate the calculation of the number of comments from json to html</li>
-            </ul>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Nabil Putra Hadiyani</h4>
-            <h5>191524052</h5>            
-            <p>
-            <ul>
-              <li> Scraping The gameplay PUBG comments  from youtube </li>
-			  <li> Labeling The gameplay PUBG comments </li>
-			  <li> Look for web templates </li>
-              <li> Modify the contact template page according to group members</li>
-			  <li> Change the appearance / css of the contact page</li>
-			</ul>
-            </p>
-          </div>
-      <h3 class="resume-title">Programmer</h3>
-          <div class="resume-item">
-            <h4>Salman Shalahuddin</h4>
-            <h5>191524059</h5>
-            <p>
-            <ul>
-              <li> Scraping The gameplay Get Rich comments  from youtube </li>
-			  <li> Labeling The gameplay Get Rich comments </li>
-			  <li>Modify the homepage template on the web</li>
-              <li>Modify the CSS template style</li>
-              <li>Modified Annotation Graph page on the web</li>
-            </ul>
-            </p>
-          </div>          
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- End Resume Section --><!--=======Services Section=======- ->
+    </section>
+    <!-- End Resume Section -->
+    <!--=======Services Section=======- ->
                 <s ection id="services" class="services">
              <div class="container">
                 
@@ -704,10 +710,10 @@
                         <div class="portfolio-info">
                             <h4>MOBA 1</h4>
                             <p>Mobile Legends</p>
-                             <a href="https://m.mobilelegends.com/en" target="_blank"><i class="bx bx-link"></i></a>
+                            <a href="https://m.mobilelegends.com/en" target="_blank"><i class="bx bx-link"></i></a>
                             <div class="portfolio-links">
                                 <a href="assets/img/portfolio/mobilelegends.jpg" data-gall="portfolioGallery" class="venobox" title="MOBA 1"><i class="bx bx-plus"></i></a>
-                                
+
                             </div>
 
 
@@ -721,10 +727,10 @@
                         <div class="portfolio-info">
                             <h4>Strategy 1</h4>
                             <p>Let's Get Rich</p>
-                                <a href="https://game.line.me/pr/letsgetrich/en" target="_blank"><i class="bx bx-link"></i></a>
+                            <a href="https://game.line.me/pr/letsgetrich/en" target="_blank"><i class="bx bx-link"></i></a>
                             <div class="portfolio-links">
                                 <a href="assets/img/portfolio/getrich.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -740,7 +746,7 @@
 
                             <div class="portfolio-links">
                                 <a href="assets/img/portfolio/pes2020.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -754,10 +760,10 @@
                         <div class="portfolio-info">
                             <h4>FPS 1</h4>
                             <p>PUBG Mobile</p>
-                            <a href="https://www.pubgmobile.com/" target="_blank"><i class="bx bx-link"></i></a>  
+                            <a href="https://www.pubgmobile.com/" target="_blank"><i class="bx bx-link"></i></a>
                             <div class="portfolio-links">
                                 <a href="assets/img/portfolio/pubgm.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -769,10 +775,10 @@
                         <div class="portfolio-info">
                             <h4>FPS 2</h4>
                             <p>Call Of Duty Mobile</p>
-                            <a href="https://codm.garena.com/" target="_blank"><i class="bx bx-link"></i></a> 
+                            <a href="https://codm.garena.com/" target="_blank"><i class="bx bx-link"></i></a>
                             <div class="portfolio-links">
                                 <a href="assets/img/portfolio/CODM.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                 
+
                             </div>
                         </div>
                     </div>
@@ -968,38 +974,69 @@
     <script src="assets/js/chart.js"></script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-   <script>
-function myFunction() {
-  $(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#myTable tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
-}
-</script>
-<script>
-function myFunction2() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput2");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[2];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }       
-  }
-}
-</script>
+    <script>
+        function myFunction() {
+            $(document).ready(function() {
+                $("#myInput").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#myTable tr").filter(function() {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        }
+    </script>
+    <script>
+        function myFunction2() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput2");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[2];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {
+            'packages': ['corechart']
+        });
+        google.charts.setOnLoadCallback(drawChart);
+
+        // Draw the chart and set the chart values
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Positive', totalpositive],
+                ['Negative', totalnegative],
+                ['Neutral', totalneutral]
+            ]);
+
+            // Optional; add a title and set the width and height of the chart
+            var options = {
+                'title': 'Comments',
+                'width': 550,
+                'height': 400
+            };
+
+            // Display the chart inside the <div> element with id="piechart"
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+            chart.draw(data, options);
+        }
+        ////
+    </script>
 
 
 
